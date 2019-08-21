@@ -1,0 +1,67 @@
+.first {
+    background-image: url(img/slider-1.jpg);
+}
+
+.second {
+    background-image: url(img/slider-2.jpg);
+}
+
+.third {
+    background-image: url(img/slider-3.jpg);
+}
+
+.fourth {
+    background-image: url(img/slider-4.jpg);
+}
+
+
+.first,
+.second,
+.third,
+.fourth {
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 70vh;
+
+    filter: grayscale(100%);
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+.third {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.carousel-control-next-icon {
+    margin-left: auto;
+    background-color: red;
+    padding: 3rem 0.9rem;
+}
+
+.carousel-control-prev-icon {
+    margin-right: auto;
+    background-color: red;
+    padding: 3rem 0.9rem;
+}
+
+
+
+.carousel-item>div>* {
+    max-width: 70%;
+    text-align: center;
+}
+
+.carousel-item h1 {
+    text-transform: uppercase
+}
+
+.carousel-item button {
+    color: white;
+}
